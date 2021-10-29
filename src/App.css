@@ -22,6 +22,10 @@
     vertical-align: top;
 }
 
+.small-margin-top {
+    margin-top: 15px;
+}
+
 /* Global Typography */
 h1 {
     color: var(--text-color);
@@ -81,6 +85,10 @@ p {
     font-size: var(--font-size-regular);
     font-weight: 600;
     letter-spacing: 3.75px;
+}
+
+.black-font-weight { 
+    font-weight: 900;
 }
 
 /* Global Animations */

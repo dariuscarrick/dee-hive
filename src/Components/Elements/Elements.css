@@ -14,18 +14,24 @@
 }
 
 .box-front.small {
-    padding: 15px;
+    padding: 15px 15px 25px 15px;
     transform: translate(3px, -3px);
 }
 
 .box-front.medium {
-    padding: 25px;
+    padding: 25px 25px 35px 25px;
     transform: translate(5px, -5px);
 }
 
 .box-front.large {
-    padding: 40px;
+    padding: 40px 40px 85px 40px;
     transform: translate(10px, -10px);
+}
+
+.box-front button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 button {
@@ -40,12 +46,11 @@ button a {
     color: var(--background-color);
 }
 
-.hero button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
-
-.hero .box-front.large {
-    padding: 40px 40px 85px 40px;
+.article-title {
+    background-color: var(--text-color);
+    color: var(--background-color);
+    margin: 35px 0 25px 0;
+    width: 100%;
+    text-align: center;
+    padding: 11px 0 12px 0;
 }

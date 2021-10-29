@@ -1,5 +1,5 @@
 import React from 'react'
-import { FullLayout, LogoLockup, Navigation, Sidebar, SidebarItem, Box, BoxSize } from 'Components'
+import { FullLayout, LogoLockup, Navigation, Sidebar, SidebarItem, Box, BoxSize, Article } from 'Components'
 import './Pages.css'
 
 export class CaseStudies extends React.Component {
@@ -12,11 +12,15 @@ export class CaseStudies extends React.Component {
                 </header>
                 <Sidebar>
                     <SidebarItem>
-                        <Box size={BoxSize.Small}>
-                            <p>Meow</p>
+                        <Box size={BoxSize.Medium}>
+                            <h3 className='black-font-weight'>AutoSpark</h3>
+                            <p className='small-margin-top'>Exploring automated content as a product</p>
                         </Box>
                     </SidebarItem>
                 </Sidebar>
+                <Article title='AutoSpark' className='inline-top case-studies-article'>
+                    <p>Meow</p>
+                </Article>
             </FullLayout>
         )
     }
