@@ -14,7 +14,7 @@ export class CaseStudies extends React.Component {
                     <SidebarItem>
                         <Box size={BoxSize.Medium}>
                             <h3 className='black-font-weight'>AutoSpark</h3>
-                            <p className='small-margin-top'>Exploring automated content as a product</p>
+                            <h4 className='small-margin-top'>Exploring automated content as a product</h4>
                         </Box>
                     </SidebarItem>
                 </Sidebar>
