@@ -1,0 +1,52 @@
+.lockup {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 25px;
+}
+
+.box-back {
+    background-color: var(--text-color);
+}
+
+.box-front {
+    background-color: var(--background-color);
+    border: 1.5px solid var(--text-color);
+}
+
+.box-front.small {
+    padding: 15px;
+    transform: translate(3px, -3px);
+}
+
+.box-front.medium {
+    padding: 25px;
+    transform: translate(5px, -5px);
+}
+
+.box-front.large {
+    padding: 40px;
+    transform: translate(10px, -10px);
+}
+
+button {
+    min-width: 275px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-regular);
+    font-weight: 400;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    padding: 13px 0 14px 0;
+    cursor: pointer;
+}
+
+.hero button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.hero .box-front.large {
+    padding: 40px 40px 85px 40px;
+}

@@ -1,0 +1,89 @@
+/* Global Variables */
+.app {
+    --font-family: 'Segoe Ui';
+    --font-size-large: 25px;
+    --font-size-regular: 15px;
+}
+
+.app.light {
+    --background-color: white;
+    --text-color: black;
+    --border: 1px solid var(--text-color);
+}
+
+/* Global Layout */
+.inline-middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inline-top {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Global Typography */
+h1 {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-large);
+    font-weight: 900;
+    letter-spacing: 7.5px;
+    text-transform: uppercase;
+}
+
+h2, .navigation-link {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-regular);
+    font-weight: 600;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    transition: color 300ms ease-in-out;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    color: blue;
+}
+
+.hero p {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-large);
+    font-weight: 600;
+    letter-spacing: 3.75px;
+}
+
+/* Global Animations */
+.spin {
+    animation: spin 2s ease 1s 1;
+}
+
+.spin:hover {
+    animation: spin-back 2s ease 0s 1;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin-back {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}

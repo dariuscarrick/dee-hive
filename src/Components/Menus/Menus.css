@@ -1,0 +1,9 @@
+.sidebar {
+    margin: 40px 0;
+    padding: 0;
+    width: 340px;
+}
+
+.sidebar-item {
+    list-style: none;
+}
