@@ -1,5 +1,5 @@
 import React from 'react'
-import { FullLayout, LogoLockup, Navigation, Sidebar, SidebarItem, Box, BoxSize, Article } from 'Components'
+import { FullLayout, LogoLockup, Navigation, Sidebar, SidebarItem, Box, BoxSize, Article } from '../Components'
 import './Pages.css'
 
 export class CaseStudies extends React.Component {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BoxedLayout, LogoLockup, Navigation, Box, BoxSize, Button } from 'Components'
+import { BoxedLayout, LogoLockup, Navigation, Box, BoxSize, Button } from '../Components'
 import './Pages.css'
 
 export class Home extends React.Component {

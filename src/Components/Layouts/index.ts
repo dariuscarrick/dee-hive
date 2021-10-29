@@ -1,2 +1,2 @@
 export { BoxedLayout } from './BoxedLayout'
-export { FullLayout } from './FullLayout';
+export { FullLayout } from './FullLayout'

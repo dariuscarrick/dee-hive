@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'wouter'
-import { CaseStudies } from 'Views'
+import { CaseStudies } from '../../Views'
 import './Menus.css'
 
 interface INavigationProps {

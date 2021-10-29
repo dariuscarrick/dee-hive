@@ -1,10 +1,10 @@
 import React from 'react'
-import { Logo } from 'Components' 
+import { Logo } from '../'
 import './Elements.css'
 
 interface ILogoLockupProps {
     className?: string
-    hideTagline?: boolean;
+    hideTagline?: boolean
 }
 
 export class LogoLockup extends React.Component<ILogoLockupProps, {}> {

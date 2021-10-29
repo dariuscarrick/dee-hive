@@ -2,7 +2,7 @@ import React from 'react'
 import './Elements.css'
 
 interface IButtonProps {
-    className?: string;
+    className?: string
     children: JSX.Element | JSX.Element[] | string
 }
 

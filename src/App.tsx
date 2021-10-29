@@ -1,8 +1,8 @@
 import React from 'react'
 import { Route } from 'wouter'
-import { Home, CaseStudies } from 'Pages'
-import * as Views from 'Views'
-import 'App.css'
+import { Home, CaseStudies } from './Pages'
+import * as Views from './Views'
+import './App.css'
 
 export default class App extends React.Component {
     render() {
