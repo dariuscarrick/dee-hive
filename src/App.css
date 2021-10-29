@@ -32,7 +32,24 @@ h1 {
     text-transform: uppercase;
 }
 
-h2, .navigation-link {
+h2 {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-large);
+    font-weight: 600;
+    letter-spacing: 3.75px;
+}
+
+h3 {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-regular);
+    font-weight: 600;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+}
+
+h3 {
     color: var(--text-color);
     font-family: var(--font-family);
     font-size: var(--font-size-regular);
@@ -45,16 +62,23 @@ a {
     text-decoration: none;
     transition: color 300ms ease-in-out;
     border-bottom: 1px solid transparent;
+
+    color: var(--text-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-regular);
+    font-weight: 600;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
 }
 
 a:hover {
     color: blue;
 }
 
-.hero p {
+p {
     color: var(--text-color);
     font-family: var(--font-family);
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-regular);
     font-weight: 600;
     letter-spacing: 3.75px;
 }

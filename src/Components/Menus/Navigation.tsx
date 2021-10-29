@@ -4,7 +4,7 @@ import { CaseStudies } from 'Views'
 import './Menus.css'
 
 interface INavigationProps {
-    className?: string;
+    className?: string
 }
 
 export class Navigation extends React.Component<INavigationProps, {}> {
@@ -16,7 +16,10 @@ export class Navigation extends React.Component<INavigationProps, {}> {
     render() {
         return (
             <nav className={this.props.className}>
-                <Link href={CaseStudies} className={`navigation-link${this.getLinkActiveClass()}`}>
+                <Link
+                    href={CaseStudies}
+                    className={`navigation-link${this.getLinkActiveClass()}`}
+                >
                     Case Studies
                 </Link>
             </nav>

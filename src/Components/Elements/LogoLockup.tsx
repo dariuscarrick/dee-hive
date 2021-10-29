@@ -14,7 +14,7 @@ export class LogoLockup extends React.Component<ILogoLockupProps, {}> {
                 <Logo />
                 <div className='inline-middle lockup'>
                     <h1>Dee-Hive</h1>
-                    {!this.props.hideTagline && <h2>Design and Development</h2>}
+                    {!this.props.hideTagline && <h3>Design and Development</h3>}
                 </div>
             </div>
         )
