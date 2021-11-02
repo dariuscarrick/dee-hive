@@ -9,7 +9,7 @@ interface IButtonProps {
 export class Button extends React.Component<IButtonProps, {}> {
     render() {
         return (
-            <button>
+            <button className={this.props.className}>
                 {this.props.children}
             </button>
         )

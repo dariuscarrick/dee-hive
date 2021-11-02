@@ -8,18 +8,16 @@ interface INavigationProps {
 }
 
 export class Navigation extends React.Component<INavigationProps, {}> {
-    getLinkActiveClass = (): string => {
-        if (window.location.pathname.includes(CaseStudies)) return ' active'
-        else return ''
+    getLinkClass = (): string => {
+        let activeClass = ''
+        if (window.location.pathname.includes(CaseStudies)) activeClass = ' active'
+        return 'navigation-link' + activeClass
     }
 
     render() {
         return (
             <nav className={this.props.className}>
-                <Link
-                    href={CaseStudies}
-                    className={`navigation-link${this.getLinkActiveClass()}`}
-                >
+                <Link href={CaseStudies} className={this.getLinkClass()}>
                     Case Studies
                 </Link>
             </nav>

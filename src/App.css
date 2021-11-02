@@ -70,23 +70,6 @@ h4 {
     letter-spacing: 3.75px;
 }
 
-a {
-    text-decoration: none;
-    transition: color 300ms ease-in-out;
-    border-bottom: 1px solid transparent;
-
-    color: var(--text-color);
-    font-family: var(--font-family);
-    font-size: var(--font-size-regular);
-    font-weight: 600;
-    letter-spacing: 4.5px;
-    text-transform: uppercase;
-}
-
-a:hover {
-    color: blue;
-}
-
 p {
     color: var(--text-color);
     font-family: var(--font-family);

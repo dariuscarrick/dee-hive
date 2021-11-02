@@ -1,6 +1,7 @@
 .boxed-layout {
     margin: 40px auto;
     width: 60%;
+    max-width: 800px;
 }
 
 .full-layout {
